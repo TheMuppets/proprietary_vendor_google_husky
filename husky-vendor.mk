@@ -104,7 +104,6 @@ PRODUCT_PACKAGES += \
     MyVerizonServices \
     OemRilService \
     PixelDisplayService \
-    PixelNfc \
     PixelQualifiedNetworksService \
     RilConfigService \
     ShannonIms \
