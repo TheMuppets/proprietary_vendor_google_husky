@@ -44,6 +44,7 @@
             <timeMaxSecs>300</timeMaxSecs>
             <timeMinSecs>60</timeMinSecs>
         </timing>
+        <thermalStatusLimit>light</thermalStatusLimit>
         <allowInLowPowerMode>false</allowInLowPowerMode>
         <minimumHdrPercentOfScreen>0</minimumHdrPercentOfScreen>
         <sdrHdrRatioMap>

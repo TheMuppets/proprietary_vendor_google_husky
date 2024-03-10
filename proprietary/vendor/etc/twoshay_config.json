@@ -53,6 +53,11 @@
 					"class": "TouchSuezAlgorithm",
 					"name": "touchsuez",
 					"blocked_by": ["gril_antenna_tuning"],
+				},
+				{
+					"class": "SensorFusionAlgorithm",
+					"name": "sensorfusion",
+					"blocked_by": ["touchsuez"],
 				}
 			],
 		}

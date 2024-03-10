@@ -176,15 +176,15 @@ low_adc_rate_en=1
 slice/1/low_adc_rate_en=0
 
 # Base K Values (For the VHT case 5G 160 & 5G80/40/20/2G20)
-proxd_basekival_5g_160=13528
-proxd_basektval_5g_160=13528
-proxd_basekival=3210376,-8251,48399,0
-proxd_basektval=3210376,-8251,48399,0
+proxd_basekival_5g_160=15182
+proxd_basektval_5g_160=15182
+proxd_basekival=3211657,-5415,51489,0
+proxd_basektval=3211657,-5415,51489,0
 # Offsets across channels (Upper nibble for target, lower nibble for initiator - saved in hex)
-proxd_160mkval=0x0000,0x0404
-proxd_80mkval=0x0000,0x0101,0x0202,0x0101,0x0101,0x0000
-proxd_40mkval=0x0101,0x0101,0x0101,0x0202,0x0303,0x0606,0x0404,0x0202,0x0101,0x0000,0x0000,0x0000
-proxd_20mkval=0x0202,0x0202,0x0101,0x0101,0x0202,0x0101,0x0202,0x0202,0x0404,0x0505,0x0707,0x0808,0x0808,0x0404,0x0303,0x0404,0x0202,0x0101,0x0202,0x0000,0x0101,0x0202,0x0202,0x0202,0x0202
+proxd_160mkval=0x0404,0x0000
+proxd_80mkval=0x0707,0x0303,0x0202,0x0000,0x0101,0x0202
+proxd_40mkval=0x0707,0x0505,0x0404,0x0202,0x0101,0x0101,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
+proxd_20mkval=0x0909,0x0808,0x0707,0x0606,0x0707,0x0404,0x0303,0x0404,0x0303,0x0202,0x0202,0x0303,0x0202,0x0000,0x0000,0x0202,0x0202,0x0101,0x0202,0x0202,0x0202,0x0202,0x0202,0x0202,0x0202
 proxd_2gkval=0
 # Offsets across frame formats @ Initiator
 # Only for non-VHT frame (Leg6, Leg non-6, mcs0, non-mcs0)
@@ -204,12 +204,12 @@ proxdt_ack=0,0,0,0
 proxd_sub80m40m=0,0,0,0,0
 proxd_sub80m20m=0,0,0,0,0
 proxd_sub40m20m=0,0,0,0,0
-proxd_sub80m40m_ch_off=56,16605,17583,14800,15036,74
-proxd_sub80m20m_ch_off=35,8274,9311,8436,10774,108
-proxd_sub40m20m_ch_off=77,-14,-27202,-26547,-26806,-26996,-26751,-21856,-25364,-26746,-43
-proxd_sub160m80m_ch_off=22143,22703
-proxd_sub160m40m_ch_off=19961,21500
-proxd_sub160m20m_ch_off=13846,14260
+proxd_sub80m40m_ch_off=-91,16806,16152,17192,16331,-131
+proxd_sub80m20m_ch_off=-229,5843,9606,5993,9446,-33
+proxd_sub40m20m_ch_off=-477,-151,-28479,-25768,-26085,-26211,-28408,-23883,-26608,-25593,-273
+proxd_sub160m80m_ch_off=20565,20685
+proxd_sub160m40m_ch_off=16782,18104
+proxd_sub160m20m_ch_off=9670,11441
 
 nocrc=1
 otpimagesize=502
