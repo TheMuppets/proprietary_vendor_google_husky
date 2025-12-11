@@ -191,6 +191,7 @@
             <Limit name="measured-frame-rate-720x480" range="162-305" />
             <Limit name="measured-frame-rate-1280x720" range="154-198" />
             <Limit name="measured-frame-rate-1920x1080" range="46-97" />
+            <Limit name="measured-frame-rate-3840x2160" range="45-54" />
         </MediaCodec>
         <MediaCodec name="c2.exynos.mpeg4.encoder" type="video/mp4v-es" update="true">
             <!-- measured 90%:240-242 med:241 N=2 -->
@@ -227,6 +228,8 @@
             <Limit name="measured-frame-rate-1280x720" range="122-123" /> <!-- v90%=1.0 -->
             <!-- measured 90%:72-73 med:73 N=2 -->
             <Limit name="measured-frame-rate-1920x1080" range="72-73" /> <!-- v90%=1.0 -->
+            <!-- measured 90%:45-47 med:46 N=2 -->
+            <Limit name="measured-frame-rate-3840x2160" range="45-46" /> <!-- v90%=1.0 -->
         </MediaCodec>
         <MediaCodec name="c2.google.av1.encoder" type="video/av01" update="true">
             <!-- measured 90%:292-307 med:292 N=2 -->

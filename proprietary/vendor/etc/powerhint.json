@@ -31,7 +31,8 @@
         "9999999",
         "1352000",
         "1014000",
-        "0"
+        "0",
+        "546000"
       ],
       "ResetOnInit": true
     },
@@ -1490,6 +1491,12 @@
       "Node": "CPUBigClusterDownRateLimitUs",
       "Duration": 0,
       "Value": "500"
+    },
+   {
+      "PowerHint": "DISPLAY_INACTIVE",
+      "Node": "MemFreq",
+      "Duration": 0,
+      "Value": "0"
     },
     {
       "PowerHint": "DISPLAY_INACTIVE",
