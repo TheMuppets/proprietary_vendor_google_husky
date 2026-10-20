@@ -784,6 +784,8 @@ PRODUCT_PACKAGES += \
     vendor.google.edgetpu_app_service@1.0-service.xml \
     android.hardware.boot-service.default_recovery-pixel.xml \
     android.hardware.health-service.zuma_recovery.xml \
+    dump_modem \
+    gpuflag \
     gs_watchdogd \
     vendor.google.edgetpu_app_service@1.0-service \
     vendor.google.whitechapel.audio.hal.parserservice \
@@ -2999,7 +3001,6 @@ PRODUCT_PACKAGES += \
     dump_exynos_display \
     dump_fingerprint \
     dump_gsc \
-    dump_modem \
     dump_modemlog \
     dump_pcie \
     dump_perf \
@@ -3016,7 +3017,6 @@ PRODUCT_PACKAGES += \
     predump_gti0 \
     predump_stm \
     qm35_poll \
-    gpuflag \
     android.hardware.audio.service-aidl.aoc \
     android.hardware.authsecret-service.citadel \
     android.hardware.biometrics.fingerprint-service.goodix \
